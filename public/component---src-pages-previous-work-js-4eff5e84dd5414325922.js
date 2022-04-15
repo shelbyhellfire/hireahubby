@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[850],{1482:function(e,t,a){a.r(t);var r=a(7294),n=a(4320),l=a(9308),u=a(9787),s=a(9899);t.default=function(){return r.createElement(u.Z,null,r.createElement(s.Z,{title:"Previous work"}),r.createElement(n.ZP,{item:!0,xs:12},r.createElement(l.Z,{variant:"h1"},"Look at what we've done!")))}}}]);
+//# sourceMappingURL=component---src-pages-previous-work-js-4eff5e84dd5414325922.js.map
