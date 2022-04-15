@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[501],{4293:function(e,t,a){a.r(t);var n=a(7294),r=a(4320),l=a(9308),u=a(9787),s=a(9899);t.default=function(){return n.createElement(u.Z,null,n.createElement(s.Z,{title:"Contact"}),n.createElement(r.ZP,{item:!0,xs:12},n.createElement(l.Z,{variant:"h1"},"Talk to us!")))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-0a40087c8686ca0f19dc.js.map
