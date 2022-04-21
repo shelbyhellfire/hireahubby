@@ -18,14 +18,14 @@ const IndexPage = () => (
       />
       </Grid>
     <Grid item sm={8}>
-    <Typography variant="h1">We're here to help.</Typography>
+    <Typography variant="h1">We're here to help</Typography>
     </Grid>
     <Grid item sm={12}>
-    <Typography sx={{ mt: 3 }} variant="p">Let's be honest, over the years our lifestyles have evolved into <strong>digital chaos</strong>. There are less and <em>less</em> of us who were taught the "handy" skills of keeping up or changing a home. There are also less of us who have the <em>time</em> to do or learn how to do. 
+    <Typography sx={{ mt: 3 }} variant="p">Let's be honest, over the years our lifestyles have evolved into <strong>digital chaos</strong>. Some of us weren't taught the <em>"handy"</em> skills of keeping up or changing a home... and some of us just don't have the <em>time</em> to complete home maintenance needs. 
     </Typography>
     <Typography variant="h4">That's where we come in! </Typography>
     <Typography variant="p">Hire a Hubby is here to help you with your <Link to='/services'>home maintenance and remodeling needs</Link> in the metro and central areas of Minnesota.</Typography>
-    <Typography variant="p">Check out <Link to='/previous-work'>what we have done</Link> so far! And then <Link to='/contact'>tell us about</Link> your needs and timeline. </Typography>
+    <Typography variant="p">Check out <Link target='_blank' href='https://www.facebook.com/hireahubbymn/photos'>what we have done</Link> so far! And then <Link target='_blank' href='https://fb.com/book/hireahubbymn/'>tell us about</Link> your needs and timeline. </Typography>
     <Typography variant="p">How are we different than your neighborhood handyman?</Typography>
     <ul>
       <li>We are efficient with timeline (in other words, we are super speedy!)</li>

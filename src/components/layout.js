@@ -93,8 +93,8 @@ const Layout = ({ children }) => {
       <Grid item xs={6}>
       <nav className={classes.nav}>
       <Link className={classes.link} to="/services"><ConstructionIcon /><span>Services</span></Link>
-      <Link className={classes.link} to="/previous-work"><AutoFixHighIcon /><span>Previous work</span></Link>
-      <Link className={classes.link} to="/contact"><AssistantIcon /><span>Contact</span></Link>
+      <Link className={classes.link}  target='_blank' href='https://www.facebook.com/hireahubbymn/photos'><AutoFixHighIcon /><span>Previous work</span></Link>
+      <Link className={classes.link} target='_blank' href="https://fb.com/book/hireahubbymn/"><AssistantIcon /><span>Book a service</span></Link>
       
       </nav>
       </Grid>
