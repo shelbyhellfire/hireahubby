@@ -8,7 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import { makeStyles } from '@mui/styles';
 import "./layout.css"
 // import { Link } from "gatsby-material-ui-components"
@@ -92,9 +92,9 @@ const Layout = ({ children }) => {
       </Grid>
       <Grid item xs={6}>
       <nav className={classes.nav}>
-      <Link className={classes.link} to="/services"><ConstructionIcon /><span>Services</span></Link>
-      <Link className={classes.link}  target='_blank' href='https://www.facebook.com/hireahubbymn/photos'><AutoFixHighIcon /><span>Previous work</span></Link>
-      <Link className={classes.link} target='_blank' href="https://fb.com/book/hireahubbymn/"><AssistantIcon /><span>Book a service</span></Link>
+      <Link className={classes.link} to="/services"><ConstructionIcon /><span><Typography variant="span" sx={{ display: { xs: 'none', md: 'block' } }}>Services</Typography></span></Link>
+      <Link className={classes.link}  target='_blank' href='https://www.facebook.com/hireahubbymn/photos'><AutoFixHighIcon /><span><Typography variant="span" sx={{ display: { xs: 'none', md: 'block' } }}>Previous work</Typography></span></Link>
+      <Link className={classes.link} target='_blank' href="https://fb.com/book/hireahubbymn/"><AssistantIcon /><span><Typography variant="span" sx={{ display: { xs: 'none', md: 'block' } }}>Book a service</Typography></span></Link>
       
       </nav>
       </Grid>
@@ -110,7 +110,7 @@ const Layout = ({ children }) => {
            <Grid container  direction="row"
   justifyContent="space-around"
   alignItems="center">
-      <Grid item xs={2}>
+      <Grid item xs={8} md={2}>
           © {new Date().getFullYear()} hireahubbymn.com
           </Grid>
           <Grid item xs={2}>
